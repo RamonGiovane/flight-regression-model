@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "flight-regrression-model"
+version = "0.1.0"
+description = ""
+authors = ["RamonGiovane <ramon.giovane@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "1.5.3"
+numpy = "1.23.5"
+scikit-learn = "1.2.2"
+seaborn = "0.12.2"
+yellowbrick = "1.5"
+ipython = "^8.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
